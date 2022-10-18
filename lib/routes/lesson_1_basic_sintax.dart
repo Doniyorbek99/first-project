@@ -62,11 +62,11 @@ class _BasicSintaxDartState extends State<BasicSintaxDart> {
         Text.rich(TextSpan(text: "Bu buyruqlar terminalda ishlatiladi. Dart buyruq qatori parametrlari Dart skriptining bajarilishini o'zgartirish uchun ishlatiladi. Standart buyruq qatori variantlari quyida keltirilgan.",style: MyText.paragraph)),
         Text("Buyruqlar qatori parametrlari.",style:MyText.identify1),
         Text("Tavsiflar",style: MyText.identify2,),
-        LessonTable(dataType: Text("c yoki -c",style: MyText.identify1,), example:Text("Bu tasdiqlash va turni tekshirishga imkon beradi.",style: MyText.identify2,),tableSize: 100),
-        LessonTable(dataType: Text("--version",style: MyText.identify1,), example:Text("U VM versiyasi ma'lumotlarini ko'rsatadi.",style: MyText.identify2,), tableSize: 100),
-        LessonTable(dataType: Text("--package<path>",style: MyText.identify1,), example: Text("U paket rezolyutsiyasi konfiguratsiya fayliga yo'lni ko'rsatadi.",style: MyText.identify2,), tableSize: 100),
-        LessonTable(dataType: Text("-p <path>",style: MyText.identify1,), example: Text("Bu kutubxonalarni qaerdan topish kerakligini ko'rsatadi.",style: MyText.identify2,), tableSize: 100),
-        LessonTable(dataType: Text("-h yoki -help",style: MyText.identify1,), example: Text("U yordam so'rash uchun ishlatiladi.",style: MyText.identify2,), tableSize: 100),
+        LessonTable(dataType: Text("c yoki -c",style: MyText.identify1,), example:Text("Bu tasdiqlash va turni tekshirishga imkon beradi.",style: MyText.identify2,),tableSize: 120),
+        LessonTable(dataType: Text("--version",style: MyText.identify1,), example:Text("U VM versiyasi ma'lumotlarini ko'rsatadi.",style: MyText.identify2,), tableSize: 120),
+        LessonTable(dataType: Text("--package<path>",style: MyText.identify1,), example: Text("U paket rezolyutsiyasi konfiguratsiya fayliga yo'lni ko'rsatadi.",style: MyText.identify2,), tableSize: 150),
+        LessonTable(dataType: Text("-p <path>",style: MyText.identify1,), example: Text("Bu kutubxonalarni qaerdan topish kerakligini ko'rsatadi.",style: MyText.identify2,), tableSize: 150),
+        LessonTable(dataType: Text("-h yoki -help",style: MyText.identify1,), example: Text("U yordam so'rash uchun ishlatiladi.",style: MyText.identify2,), tableSize: 120),
       ],
     ),);
   }

@@ -111,6 +111,8 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 10,
             ),
             const BasicDartList(),
+            const BasicDartList(),
+
             const SizedBox(
               height: 10,
             ),
